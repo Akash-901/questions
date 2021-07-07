@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(36, 35, 35);
+        }
+
+        .main-cont {
+            width: 50%;
+            margin: auto;
+            margin-top: 30vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            color: cornsilk;
+            font-size: 2.5em;
+            border-bottom: 3px solid cornsilk;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            background-color: rgb(25, 247, 25);
+            text-align: center;
+        }
+
+        .para1,
+        .para-small1 {
+            font-size: 1.2em;
+            font-family: cursive;
+            overflow: hidden;
+        }
+
+        .container-small1 {
+            display: none;
+        }
+
+        .show-container .container-small1 {
+            display: inline;
+        }
+
+        .minus {
+            display: none;
+        }
+
+        .show-container .minus {
+            display: inline;
+        }
+
+        .show-container .plus {
+            display: none;
+        }
+
+        hr {
+            width: 50%;
+            margin: auto;
+            background-color: black;
+            height: 0.4vh !important;
+            border: 0 none;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <main class="main-cont">
+        <h1>General Questions</h1>
+        <section class="container">
+            <div class="container1">
+                <p class="para1">This is the first question <button id="btn1">
+                        <span class="plus">
+                            <i class="fas fa-plus"></i>
+                        </span>
+
+                        <span class="minus">
+                            <i class="fas fa-minus"></i>
+                        </span>
+
+                    </button></p>
+
+                <div class="container-small1">
+                    <hr>
+                    <p class="para-small1">This paragraph represeents the informattion about above article</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="container2">
+                <p class="para1">This is the first question <button id="btn2">
+                        <span class="plus">
+                            <i class="fas fa-plus"></i>
+                        </span>
+
+                        <span class="minus">
+                            <i class="fas fa-minus"></i>
+                        </span>
+
+                    </button></p>
+                <div class="container-small1">
+                    <hr>
+                    <p class="para-small1">This paragraph represeents the informattion about above article</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="container3">
+                <p class="para1">This is the first question <button id="btn3">
+                        <span class="plus">
+                            <i class="fas fa-plus"></i>
+                        </span>
+
+                        <span class="minus">
+                            <i class="fas fa-minus"></i>
+                        </span>
+
+                    </button></p>
+                <div class="container-small1">
+                    <hr>
+                    <p class="para-small1">This paragraph represeents the informattion about above article</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
